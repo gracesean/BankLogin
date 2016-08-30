@@ -1,0 +1,160 @@
+html, body {
+	text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header {
+	padding: 10px;
+}
+
+h1{
+	font-size: 60px;
+	color: DarkSlateBlue;
+	font-family: Oswald;
+	font-weight: bold;
+	letter-spacing: 8px;
+	text-shadow: 5px 5px 5px black;
+}
+
+.trans {
+	background-color: white ;
+	opacity: 0.8;
+}
+
+body{
+    background: url("../img/bank.jpg") no-repeat ;
+    background-size: 100% auto ;
+    width: 100%;
+}
+
+#logo{
+	position: absolute;
+	left: 10%;
+	float:left;
+	height:140px;
+}
+
+#creators{
+	border:1px solid white;
+	color: white;
+	font-size: 150%;
+	font-weight: bold;
+	font-family: verdana;
+}
+
+#login { 
+	margin: 0 auto;
+	border: 15px solid #231589;
+	border-radius: 25px;
+	height: auto;
+	width: 205px;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	background-color: #157389;
+	overflow: hidden;
+}
+
+.parrafo{
+	padding: 10px;
+	text-align: center;
+	font: italic medium Oswald;
+	color: black;
+}
+
+.numberinput{
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 5px;
+	border-style: solid;
+}
+
+#input1{
+	border-color: red;
+}
+
+#input1:focus{
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 5px;
+	border-style: solid;
+	border-width: 5px;
+}
+
+.pad{
+	border: 1px solid black;
+	border-radius: 100px ;
+	text-align: center;	
+	margin-left: 5px;
+	background-color: blue;
+	font-family: Oswald;
+	font-size: 40px;
+	padding: 5px;
+	margin-top: 5px;
+	width: 22px;
+	float: left;
+}
+
+.pad:hover{
+	cursor: pointer;
+	background-color: lightblue;
+}
+
+#borrar {
+	background-color: darkblue;
+	color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: relative;
+	margin: 5px;
+	float: bottom;
+	font-family: Oswald;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.aceptar {
+	background-color: green;
+	color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: relative;
+	margin: 5px;
+	float: bottom;
+	font-family: Oswald;
+	font-size: 20px;
+	padding: 5px;
+}
+
+#borrar:hover{
+	cursor: pointer;
+	background-color: red;
+}
+
+.aceptar:hover{
+	cursor: pointer;
+	background-color: red;
+}
+
+.disabled {
+	
+	color: grey;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: relative;
+	margin: 5px;
+	float: bottom;
+	font-family: Oswald;
+	font-size: 20px;
+	padding: 5px;
+}
+
+#errorid {
+	font-family: Oswald;
+	color: orange;
+}
+
+#correct {
+	font-family: Oswald;
+	color: greenyellow;
+}

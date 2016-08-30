@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/1.css">
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="../img/b.png">
+	<title>BB OnlineBank</title>
+	 <meta charset='utf-8'>
+</head>
+<body>
+	<header class="trans">	
+		<img id="logo" src="../img/b.png" alt="logo">
+		<h1>BLUE BANK</h1>
+	</header>	
+	<div id="creators">GRACE_PUY+GUEMBE_LARA</div>
+	<div id="login" class="login">
+		<div id="p1" class="parrafo">IDENTIFICADOR</div>
+		<div id="errorid"></div>
+		<div>
+			<input type="text" id="input1" class="numberinput" placeholder="123456-1" maxlength="8" size="8">
+		</div>
+		<div id="p2" class="parrafo">PIN</div>
+		<div id="celdaspin">
+			<input type="password" id="pin0" class="numberinput pin" maxlength="1" size="1" readonly>
+			<input type="password" id="pin1" class="numberinput pin" maxlength="1" size="1" readonly>
+			<input type="password" id="pin2" class="numberinput pin" maxlength="1" size="1" readonly>
+			<input type="password" id="pin3" class="numberinput pin" maxlength="1" size="1" readonly placeholder="X">
+			<input type="password" id="pin4" class="numberinput pin" maxlength="1" size="1" readonly placeholder="X">
+			<input type="password" id="pin5" class="numberinput pin" maxlength="1" size="1" readonly placeholder="X">
+		</div>
+		<button id="borrar">Borrar</button>
+		<button id="aceptar" class="disabled" disabled>Aceptar</button>
+		<div>
+			<div id="0" class="pad" onclick="padpulsado(0)">0</div>
+			<div id="1" class="pad" onclick="padpulsado(1)">1</div>
+			<div id="2" class="pad" onclick="padpulsado(2)">2</div>
+			<div id="3" class="pad" onclick="padpulsado(3)">3</div>
+			<div id="4" class="pad" onclick="padpulsado(4)">4</div>
+			<div id="5" class="pad" onclick="padpulsado(5)">5</div>
+			<div id="6" class="pad" onclick="padpulsado(6)">6</div>
+			<div id="7" class="pad" onclick="padpulsado(7)">7</div>
+			<div id="8" class="pad" onclick="padpulsado(8)">8</div>
+			<div id="9" class="pad" onclick="padpulsado(9)">9</div>
+		</div>
+				
+	</div> 
+	<footer>
+ 		<p><b>&copy; BB design. All rights reserved.</b></p>
+	</footer>
+	<script type="text/javascript" src="../js/1.js"></script>
+</body>
+</html>
